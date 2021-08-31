@@ -15,9 +15,9 @@ Visualisera resultatet från modellen kan man göra med olika plottar, diagram, 
 Förbereda data handlar ofta om att konvertera olika datavärden till samma skala, men man måste kolla så att inte skalan har betydsle. Även partiskhet behöver analyseras då det påverkar modellen. Bla behöver NaN och punkter som sticker ut ska sorteras bort.
 
 Exempel på variabler: 
-####Responsvariabel  
+#### Responsvariabel  
 Pris
-####Förklarande/residual variabler  
+#### Förklarande/residual variabler  
 Boarea
 Tomtarea
 Byggår
