@@ -14,17 +14,18 @@ Visualisera resultatet från modellen kan man göra med olika plottar, diagram, 
 ## Bearbeta data till rätt format
 Förbereda data handlar ofta om att konvertera olika datavärden till samma skala, men man måste kolla så att inte skalan har betydsle. Även partiskhet behöver analyseras då det påverkar modellen. Bla behöver NaN och punkter som sticker ut ska sorteras bort.
 
+Exempel på variabler: 
 Responsvariabel  
-    Pris
+Pris
 Förklarande/residual variabler  
-    Boarea
-    Tomtarea
-    Byggår
-    Hav 
-    Rum 
-    Sålt (sålt/osålt)
-    Hus (villa, radhus/kedjehus) 
-    Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med som ej är med i studien.
+Boarea
+Tomtarea
+Byggår
+Hav 
+Rum 
+Sålt (sålt/osålt)
+Hus (villa, radhus/kedjehus) 
+Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med som ej är med i studien.
 
 I studiens första regression togs inga variabler bort då de alla kan tänkas ha en inverkan på slutpriset för ett hus. 
 För att undersöka om några variabler korrelerar med varandra kan man göra en scatterplott. En scatterplott kan visa om det finns ett linjärt samband mellan variablerna. I studien^1 hittades ett linjärt samband mellan boarea och rum. Då ersattes variabeln Rum med variabeln Borum. Definitionen av Borum - boarea / antal rum.
@@ -45,7 +46,7 @@ Använder man strömmande data så kan man göra på två olika sätt.
 2. Bygger nya modeller och tränar med ny data.
 
 Studien^1 länk: https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2015/2015_19_report.pdf?forcedownload=1
-Exempel på variabler: 
+
 
 ## Hur fungerar linjär regression
 Linjär regression är en maskininlärningsalgoritm som baseras på bevakad inlärning. Den sätter ett predikterat målvärde baserad på oberoende variabler och den används främst för att hitta beroenden mellan variablerna och prognosen. Linjär regression finner alltså ut det linjära förhållandet mellan x (indata) och y (utdata).
