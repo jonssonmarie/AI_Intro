@@ -18,13 +18,13 @@ Exempel på variabler:
 #### Responsvariabel  
 Pris
 #### Förklarande/residual variabler  
-Boarea
-Tomtarea
-Byggår
-Hav 
-Rum 
-Sålt (sålt/osålt)
-Hus (villa, radhus/kedjehus) 
+Boarea  
+Tomtarea  
+Byggår  
+Hav  
+Rum  
+Sålt (sålt/osålt)  
+Hus (villa, radhus/kedjehus)  
 Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med som ej är med i studien.
 
 I studiens första regression togs inga variabler bort då de alla kan tänkas ha en inverkan på slutpriset för ett hus. 
