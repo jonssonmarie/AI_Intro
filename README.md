@@ -54,16 +54,16 @@ https://www.geeksforgeeks.org/ml-linear-regression/#:~:text=Linear%20Regression%
 
 ## Driftsättning av modell
 Det finns många olika lösningar för att driftsätta och underhålla AI modeller.
-Om man behöver något enkelt och billigt så finns tex Flask, är du företagare med tillräckliga resurser (kunskap och folk)  så kan AWS, Azure eller GCP passa bättre. Har företaget/du större krav så kanske Oracle, IBM eller Goggle Cloud passar. Om du vill ah en end-to-end lösning kan AutoML passa. Det finns hur många som helst på marknaden. 
+Om man behöver något enkelt och billigt så finns tex Flask, är du företagare med tillräckliga resurser (kunskap och folk)  så kan AWS, Azure eller GCP passa bättre. Har företaget/du större krav så kanske Oracle, IBM eller Goggle Cloud passar. Om du vill ha en end-to-end lösning kan AutoML passa. Det finns hur många som helst på marknaden. 
 Den kritiska faktorn för att lyckas få ut sin AI modell på marknaden och i produktion är förmågan att samarbeta och iterera som team.
 
 https://stackoverflow.blog/2020/10/12/how-to-put-machine-learning-models-into-production/
 https://towardsdatascience.com/10-ways-to-deploy-and-serve-ai-models-to-make-predictions-336527ef00b2
 
 ## Teknologier under maskininlärningsprocessen
-Maskininlärning bygger på att undersöka och jämföra stora datamängder för att hitta mönster.
-Bevakad inlärning - algoritmen får data behandlad av människor. 
-Oövervakad inlärning - algoritmen får obehandlad data och kan hitta mönster själv.
+Maskininlärning bygger på att undersöka och jämföra stora datamängder för att hitta mönster.  
+Bevakad inlärning - algoritmen får data behandlad av människor.  
+Oövervakad inlärning - algoritmen får obehandlad data och kan hitta mönster själv.  
 Förstärkt inlärning - algoritmen får en uppsättning regler och begränsningar och lär sig själv hur man bäst uppnår målen.
 
 https://techworld.idg.se/2.2524/1.699032/ai-sa-funkar/sida/5/sa-funkar-maskininlarning--steg-for-steg
