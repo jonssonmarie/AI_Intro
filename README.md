@@ -1,7 +1,5 @@
 #  Arbetsflöde för AI-projekt - husförsäljning
 
-EJ KLAR
-
 ## Samla in data, format, spara data
 Data kan komma från en källa som har det man söker efter tex Booli.se som har data på husförsäljningar för professionella användare.  Antingen samlar man in data kontinuerligt, i arkiverad form, eller som strömmande data. Boolis data är på ca 1 GB och den är redan formaterad och kräver inte så mycket kapacitet. Eller så får man samla in data manuellt. 
 Data kan man spara i en databas/server, molnet eller hantera strömmande. 
@@ -15,9 +13,9 @@ Visualisera resultatet från modellen kan man göra med olika plottar, diagram, 
 Förbereda data handlar ofta om att konvertera olika datavärden till samma skala, men man måste kolla så att inte skalan har betydsle. Även partiskhet behöver analyseras då det påverkar modellen. Bla behöver NaN och punkter som sticker ut ska sorteras bort.
 
 Exempel på variabler: 
-#### Responsvariabel  
+##### Responsvariabel  
 Pris
-#### Förklarande/residual variabler  
+##### Förklarande/residual variabler  
 Boarea  
 Tomtarea  
 Byggår  
@@ -25,10 +23,10 @@ Hav
 Rum  
 Sålt (sålt/osålt)  
 Hus (villa, radhus/kedjehus)  
-Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med som ej är med i studien.
+Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med, dock ej är med i studien^1.
 
 I studiens första regression togs inga variabler bort då de alla kan tänkas ha en inverkan på slutpriset för ett hus. 
-För att undersöka om några variabler korrelerar med varandra kan man göra en scatterplott. En scatterplott kan visa om det finns ett linjärt samband mellan variablerna. I studien^1 hittades ett linjärt samband mellan boarea och rum. Då ersattes variabeln Rum med variabeln Borum. Definitionen av Borum - boarea / antal rum.
+För att undersöka om några variabler korrelerar med varandra kan man göra en scatterplott. En scatterplott kan visa om det finns ett linjärt samband mellan variablerna. I studien^1 hittades ett linjärt samband mellan boarea och rum. Då ersattes variabeln Rum med variabeln Borum^1. 
 
 Efter studie av residualplottar får man besluta sig för om man behöver logaritmera responsvariabeln för att få residualvariablerna mer jämna.
 Bor man på en mindre ö kanske inte Hav/sjövariabeln ska vara med. I ett område med god samhällsservice ska kanske inte den variabeln vara med. Man får titta på vad som är vettigt på det område man tar körningen på och hur man kan identifiera dessa. 
@@ -52,6 +50,7 @@ Studien^1 länk: https://kurser.math.su.se/pluginfile.php/20130/mod_folder/conte
 Linjär regression är en maskininlärningsalgoritm som baseras på bevakad inlärning. Den sätter ett predikterat målvärde baserad på oberoende variabler och den används främst för att hitta beroenden mellan variablerna och prognosen. Linjär regression finner alltså ut det linjära förhållandet mellan x (indata) och y (utdata).
 
 https://www.geeksforgeeks.org/ml-linear-regression/#:~:text=Linear%20Regression%20is%20a%20machine%20learning%20algorithm%20based%20on%20supervised%20learning.&text=Linear%20regression%20performs%20the%20task,)%20and%20y(output)
+
 
 ## Driftsättning av modell
 Det finns många olika lösningar för att driftsätta och underhålla AI modeller.
