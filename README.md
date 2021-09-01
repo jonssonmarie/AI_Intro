@@ -47,7 +47,7 @@ Slutsats:
 Skit in, skit ut. Preparera data och rensa tar 80% av tiden ^2
 
 Länk:  
-https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2015/2015_19_report.pdf?forcedownload=1 ^1
+https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2015/2015_19_report.pdf?forcedownload=1 ^1  
 https://searchenterpriseai.techtarget.com/feature/How-to-build-a-machine-learning-model-in-7-steps ^2
 
 ## Hur fungerar linjär regression
