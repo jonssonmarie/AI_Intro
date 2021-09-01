@@ -23,7 +23,7 @@ Hav
 Rum  
 Sålt (sålt/osålt)  
 Hus (villa, radhus/kedjehus)  
-Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med, dock ej är med i studien^1.
+Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med, dock ej med i studien^1.
 
 I studiens ^1 första regression togs inga variabler bort då de alla kan tänkas ha en inverkan på slutpriset för ett hus. 
 För att undersöka om några variabler korrelerar med varandra kan man göra en scatterplott. En scatterplott kan visa om det finns ett linjärt samband mellan variablerna. I studien^1 hittades ett linjärt samband mellan boarea och rum. Då ersattes variabeln Rum med variabeln Borum^1. 
