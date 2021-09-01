@@ -10,7 +10,7 @@ Boolis svarsformat är JSON, kodat som UTF-8. Men man kan på andra ställen anv
 Visualisera resultatet från modellen kan man göra med olika plottar, diagram, grafer. Det beror på vad som är bäst för ändamålet. 
 
 ## Bearbeta data till rätt format
-Förbereda data handlar ofta om att konvertera olika datavärden till samma skala, men man måste kolla så att inte skalan har betydsle. Även partiskhet behöver analyseras då det påverkar modellen. Bla behöver NaN och punkter som sticker ut ska sorteras bort.
+Förbereda data handlar ofta om att konvertera olika datavärden till samma skala, men man måste kolla så att inte skalan har betydelse. Även partiskhet behöver analyseras då det påverkar modellen. Bla behöver NaN och punkter som sticker ut ska sorteras bort.
 
 Exempel på variabler: 
 ##### Responsvariabel  
@@ -25,7 +25,7 @@ Sålt (sålt/osålt)
 Hus (villa, radhus/kedjehus)  
 Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med, dock ej med i studien^1.
 
-I $studiens^1$ första regression togs inga variabler bort då de alla kan tänkas ha en inverkan på slutpriset för ett hus. 
+I studiens^1 första regression togs inga variabler bort då de alla kan tänkas ha en inverkan på slutpriset för ett hus. 
 För att undersöka om några variabler korrelerar med varandra kan man göra en scatterplott. En scatterplott kan visa om det finns ett linjärt samband mellan variablerna. I studien^1 hittades ett linjärt samband mellan boarea och rum. Då ersattes variabeln Rum med variabeln Borum^1. 
 
 Efter studie av residualplottar får man besluta sig för om man behöver logaritmera responsvariabeln för att få residualvariablerna mer jämna.
