@@ -25,26 +25,30 @@ Sålt (sålt/osålt)
 Hus (villa, radhus/kedjehus)  
 Samhällsservice – bank, post, affär, bibliotek, sjukvård, skola, dagis, buss/tåg är ytterligare variabler att ta med, dock ej är med i studien^1.
 
-I studiens första regression togs inga variabler bort då de alla kan tänkas ha en inverkan på slutpriset för ett hus. 
+I studiens ^1 första regression togs inga variabler bort då de alla kan tänkas ha en inverkan på slutpriset för ett hus. 
 För att undersöka om några variabler korrelerar med varandra kan man göra en scatterplott. En scatterplott kan visa om det finns ett linjärt samband mellan variablerna. I studien^1 hittades ett linjärt samband mellan boarea och rum. Då ersattes variabeln Rum med variabeln Borum^1. 
 
 Efter studie av residualplottar får man besluta sig för om man behöver logaritmera responsvariabeln för att få residualvariablerna mer jämna.
 Bor man på en mindre ö kanske inte Hav/sjövariabeln ska vara med. I ett område med god samhällsservice ska kanske inte den variabeln vara med. Man får titta på vad som är vettigt på det område man tar körningen på och hur man kan identifiera dessa. 
 
-Stepwise regression kan användas som nästa steg för att selektera bort variabler i modellen.
+Stegvis regression kan användas som nästa steg för att selektera bort variabler i modellen.
 Sen får man välja vilken nivå på normalfördelningen man vill ha. I studien valde man bort 5% nivån och då försvann alla utom tre variabler. 
 
 Om normalfördelningsplotten visar att punkterna ligger runt linjen i figuren så är det dags för nästa steg. Studera residualplottarna igen för de enskilda variablerna för att se om några punkter sticker ut och som ska tas bort.
 
 När man kör en multipel linjär regression så vill man inte att två eller flera variabler ska korrelera med varandra då deras skattningar kan bli osäkra. För att analysera hur flera variabler korrelerar med varandra kan man använda scatterplot. Man får då en överblick över hur de olika variablerna står i relation till varandra. Korrelerar variablerna med varandra får man ersätta dem med en ny variabel, bestående av en kombination av de två. 
 
-Nästa steg är själva träningen av modellen. Då utnyttjar man endast träningsdata och algoritmen får skapa en modell som förutspår rätt svar. Huvudaktiviteten under träningen är att göra inställningar, vilket kallas för ”hyperparameterization” på engelska.
+Nästa steg är själva träningen av modellen. Då utnyttjar man endast träningsdata och algoritmen får skapa en modell som förutspår rätt svar. Huvudaktiviteten under träningen är att göra inställningar.
 Använder man strömmande data så kan man göra på två olika sätt. 
 1. Fintrimmar befintliga modeller med ny data. 
 2. Bygger nya modeller och tränar med ny data.
 
-Studien^1 länk: https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2015/2015_19_report.pdf?forcedownload=1
+Slutsats:  
+Skit in, skit ut. Preparera data och rensa tar 80% av tiden ^2
 
+Länk:  
+https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2015/2015_19_report.pdf?forcedownload=1 ^1
+https://searchenterpriseai.techtarget.com/feature/How-to-build-a-machine-learning-model-in-7-steps ^2
 
 ## Hur fungerar linjär regression
 Linjär regression är en maskininlärningsalgoritm som baseras på bevakad inlärning. Den sätter ett predikterat målvärde baserad på oberoende variabler och den används främst för att hitta beroenden mellan variablerna och prognosen. Linjär regression finner alltså ut det linjära förhållandet mellan x (indata) och y (utdata).
