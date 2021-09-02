@@ -1,7 +1,7 @@
 #  Arbetsflöde för AI-projekt - husförsäljning
 
 ## Samla in data, format, spara data
-Data kan komma från en källa som har det man söker efter tex Booli.se som har data på husförsäljningar för professionella användare.  Antingen samlar man in data kontinuerligt, i arkiverad form, eller som strömmande data. Boolis data är på ca 1 GB och den är redan formaterad och kräver inte så mycket kapacitet. Eller så får man samla in data manuellt. 
+Data kan komma från en källa som har det man söker efter tex Booli.se som har data på husförsäljningar för professionella användare.  Antingen samlar man in data kontinuerligt, i arkiverad form, eller som strömmande data. Boolis data är på ca 1 GB och den är redan formaterad och kräver inte så mycket kapacitet. Man kan också samla in data manuellt. 
 Data kan man spara i en databas/server, molnet eller hantera strömmande. 
 Det format man väljer beror på vad källan erbjuder och vad man kan konvertera till.
 Boolis svarsformat är JSON, kodat som UTF-8. Men man kan på andra ställen använda tex csv, då csv har versionshantering, alternativt Excel.
@@ -44,7 +44,7 @@ Använder man strömmande data så kan man göra på två olika sätt.
 2. Bygger nya modeller och tränar med ny data.
 
 Slutsats:  
-Skit in, skit ut. Preparera data och rensa tar 80% av tiden ^2
+Skit in, skit ut. Preparera data och rensa tar 80% av tiden och itereration är grunden till att förbättra resultatet ^2.
 
 Länk:  
 https://kurser.math.su.se/pluginfile.php/20130/mod_folder/content/0/Kandidat/2015/2015_19_report.pdf?forcedownload=1 ^1  
